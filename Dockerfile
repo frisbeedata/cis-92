@@ -13,9 +13,9 @@ COPY mysite /mysite
 ENV PORT=8000 
 ENV STUDENT_NAME=Richard Gross
 ENV SITE_NAME=www.ultimatefrisbee.com
-ENV SECRET_KEY=
+ENV SECRET_KEY=LLijyUvRlUPONMELnvuHRQ==
 ENV DEBUG=1
-DATA_DIR=/data
+ENV DATA_DIR=/data
 
 # Set the working directory
 WORKDIR /mysite 
