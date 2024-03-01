@@ -11,7 +11,7 @@ COPY mysite /mysite
 
 # Set environment variables 
 ENV PORT=8000 
-ENV STUDENT_NAME=Richard Gross
+ENV STUDENT_NAME=Richard_Gross
 ENV SITE_NAME=www.ultimatefrisbee.com
 ENV SECRET_KEY=LLijyUvRlUPONMELnvuHRQ==
 ENV DEBUG=1
