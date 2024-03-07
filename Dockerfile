@@ -16,6 +16,7 @@ ENV SITE_NAME=www.ultimatefrisbee.com
 ENV SECRET_KEY=LLijyUvRlUPONMELnvuHRQ==
 ENV DEBUG=1
 ENV DATA_DIR=/data
+RUN command mkdir /data
 
 # Set the working directory
 WORKDIR /mysite 
