@@ -19,7 +19,7 @@ By: Richard Gross
 | Variable Name | Default Value | Description |
 | --- | --- | --- |  
 | metadata | mysite-secret | The metadata from secret.yaml |  
-| SECRET_KEY | "PUTYOUROWNHERE" | The secret key |
+| SECRET_KEY | "TOCREATEANEWSECRET_KEYREADBELOW" | The secret key |
 
 # To create a new SECRET_KEY
 echo -n 'How much wood could a wood chuck chuck if a wood chuck could chuck wood?' | base64 <br>
