@@ -22,7 +22,7 @@ By: Richard Gross
 | SECRET_KEY | "PUTYOUROWNHERE" | The secret key |
 
 # To create a new SECRET_KEY
-echo -n 'How much wood could a wood chuck chuck if a wood chuck could chuck wood?' | base64 __
+echo -n 'How much wood could a wood chuck chuck if a wood chuck could chuck wood?' | base64 <br>
 Put that in your SECRET_KEY variable in secret.yaml
 before next command below.
 
