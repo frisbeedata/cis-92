@@ -28,7 +28,7 @@ spec:
       - secretRef:
           name: mysite-secret
   volumes:
-    - name: db
+  - name: db
     persistentVolumeClaim:
       claimName: mysite-data
       
