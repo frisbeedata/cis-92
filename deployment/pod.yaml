@@ -8,6 +8,9 @@ spec:
   containers:
   - name: django
     image: ghcr.io/frisbeedata/cis-92:milestone-6.2
+    volumeMounts:
+    - mountPath: /data
+      name: db
     ports:
     - containerPort: 8000
     resources:
