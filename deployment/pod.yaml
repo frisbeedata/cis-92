@@ -27,3 +27,10 @@ spec:
           name: mysite-config
       - secretRef:
           name: mysite-secret
+  volumes:
+    - name: db
+    persistentVolumeClaim:
+      claimName: mysite-data
+      
+      
+      claimName: mysite-data
