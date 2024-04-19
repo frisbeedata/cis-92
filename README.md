@@ -10,8 +10,7 @@ By: Richard Gross
 | --- | --- | --- | 
 |  PORT | 8000 | Port used | 
 | STUDENT_NAME | Richard Gross | Username | 
-| SITE_NAME | www.ultimatefrisbee.com | Sitename | 
-| DATA_DIR | /data | Data directory | 
+| SITE_NAME |www.ultimatefrisbee.com | Sitename | 
 | Debug | "1" | Debug is true | 
 
 # The variables from secret.yaml
