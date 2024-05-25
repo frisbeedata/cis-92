@@ -3,9 +3,9 @@ kind: ConfigMap
 metadata:
   name: mysite-config
 data:
-    PORT: "8000" 
+    PORT: "8000"
     STUDENT_NAME: "Richard Gross"
-    SITE_NAME: "www.ultimatefris bee.com"
+    SITE_NAME: "www.frisbee165g.cis-92.com"
     DEBUG: "1"
     POSTGRES_DB: "mysite"
     POSTGRES_HOSTNAME: "postgres-postgresql"
