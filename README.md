@@ -24,6 +24,9 @@ By: Richard Gross
 echo -n 'How much wood could a wood chuck chuck if a wood chuck could chuck wood?' | base64 <br>
 Put that in your SECRET_KEY variable in secret.yaml
 before next command below.
+or
+1) openssl rand -base64 32
+2) openssl passwd -6 -salt "your-salt-string-from-step1" WinnieTheP00h 
 
 # Begin of how to install django in kubernetes.  Install helm chart
 helm install postgres oci://registry-1.docker.io/bitnamicharts/postgresql --values values-postgres.yaml
