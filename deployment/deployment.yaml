@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: django
-        image: ghcr.io/frisbeedata/cis-92:milestone-6.2
+        image: ghcr.io/frisbeedata/cis-92:milestone-13.1
         ports:
         - containerPort: 8000
         livenessProbe:
